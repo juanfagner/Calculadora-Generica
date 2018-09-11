@@ -14,13 +14,13 @@ class Calculadora:
         return ("{0:4.1f}".format(total/len(args)))
 
 
-    def ePrimo(num):
-        if (num % 2) == 0 and num > 2:
+    def ePrimo(condicao):
+        if (condicao % 2) == 0 and condicao > 2:
             return False
-        for i in range(3, (num - 1)):
-            if (num % i) == 0:
+        for i in range(3, (condicao - 1)):
+            if (condicao % i) == 0:
                 return False
-            return num
+            return True
 
     def getBinario(num):
         return ("{0:b}".format(num))

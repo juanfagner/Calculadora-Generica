@@ -89,37 +89,37 @@ if  __name__ == "__main__":
     teste = TesteCalculadora
 
     print("Teste de Soma:")
-    teste.test_CalcularSoma(10, 2,3,5)
-    teste.test_CalcularSoma(10, 1,3,5)
+    teste.test_CalcularSoma(185, 8,12,20,60,30,55)
+    teste.test_CalcularSoma(228, 10,35,54,27,59,43)
     print("================================")
     print("Teste de Media:")
 
-    teste.test_CalcularMedia(3, 1, 6, 3, 4, 5)
-    teste.test_CalcularMedia(3, 1, 2, 3, 4, 5)
+    teste.test_CalcularMedia(6, 2, 6, 8, 4, 10)
+    teste.test_CalcularMedia(30, 10, 20, 30, 40, 50)
 
     print("================================")
     print("Teste de Binario:")
 
     teste.test_getBinario(10, 2)
-    teste.test_getBinario(1011, 25)
+    teste.test_getBinario(1010, 10)
 
     print("================================")
     print("Teste de Numero de Digitos:")
 
-    teste.test_getNumerodeDigitos(5, 12345)
-    teste.test_getNumerodeDigitos(3, 4123)
+    teste.test_getNumerodeDigitos(9, 123456789)
+    teste.test_getNumerodeDigitos(15, 111112222233333)
 
     print("================================")
     print("Teste de Numero Primo:")
 
-    teste.test_ePrimo(11, 7)
-    teste.test_ePrimo(227, 227)
+    teste.test_ePrimo(False, 81)
+    teste.test_ePrimo(True, 227)
 
     print("================================")
     print("Teste de Palidromo:")
 
-    teste.test_ePalidromo(7217, 7137)
-    teste.test_ePalidromo(7117, 7117)
+    teste.test_ePalidromo(87878787878, 87878787878)
+    teste.test_ePalidromo(1234567890987654321, 1234567890987654321)
 
 
 
